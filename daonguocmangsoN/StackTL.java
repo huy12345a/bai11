@@ -8,7 +8,6 @@ public class StackTL {
         Stack<Integer> stack = new Stack<>();
      int[] array= {1,2,3,4,5};
      int[] newArray= new int[array.length];
-
         for (int i = 0; i < array.length; i++) {
             stack.push(array[i]);
         }
@@ -16,6 +15,5 @@ public class StackTL {
             newArray[i] = stack.pop();
         }
         System.out.println(Arrays.toString(newArray));
-
     }
 }
